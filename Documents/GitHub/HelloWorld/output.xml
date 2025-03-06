@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-03-05T18:29:39.180114" rpa="false" schemaversion="5">
+<suite id="s1" name="App" source="/Users/sami_kaasalainen/Documents/GitHub/HelloWorld/app.robot">
+<test id="s1-t1" name="Testcase1" line="2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-05T18:29:39.193500" level="INFO">Hello World!</msg>
+<arg>Hello World!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-05T18:29:39.193434" elapsed="0.000091"/>
+</kw>
+<status status="PASS" start="2025-03-05T18:29:39.193175" elapsed="0.000423"/>
+</test>
+<test id="s1-t2" name="Testcase2" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-05T18:29:39.193788" level="INFO">Hello Maailma!</msg>
+<arg>Hello Maailma!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-05T18:29:39.193749" elapsed="0.000054"/>
+</kw>
+<status status="PASS" start="2025-03-05T18:29:39.193662" elapsed="0.000181"/>
+</test>
+<status status="PASS" start="2025-03-05T18:29:39.180585" elapsed="0.013370"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="App" id="s1" pass="2" fail="0" skip="0">App</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
